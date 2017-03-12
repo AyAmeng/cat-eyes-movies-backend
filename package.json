@@ -18,7 +18,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/AyAmeng/React.js.git"
+    "url": "https://github.com/AyAmeng/cat-movies-backend.git"
   },
   "devDependencies": {
     "autoprefixer": "^6.7.6",
