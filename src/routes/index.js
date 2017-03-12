@@ -1,6 +1,7 @@
-import MainView from 'views/MainView'
-import FooView from 'views/FooView'
-import BarView from 'views/BarView'
+import MainView from 'views/mainView'
+import FooView from 'views/fooView'
+import BarView from 'views/barView'
+import BackendView from 'views/manager/backendView'
 
 export default [
   {
@@ -14,6 +15,10 @@ export default [
       {
         path: 'bar',
         component: BarView
+      },
+      {
+        path: 'backend',
+        component: BackendView
       }
     ]
   }

@@ -1,6 +1,6 @@
 import React, { Component, PropTypes } from 'react'
 import { Link } from 'react-router'
-import './MainView.css'
+import './mainView.css'
 
 export default class FooView extends Component {
   static propTypes = {
@@ -11,6 +11,7 @@ export default class FooView extends Component {
       <div className='main-view'>
         <div className='btn-group'>
           <Link to='/foo' className='btn' activeClassName='active'>To Foo</Link>
+          <Link to='/backend' className='btn' activeClassName='active'>To Manager</Link>
           <Link to='/bar' className='btn' activeClassName='active'>To Bar</Link>
         </div>
         <div className='view'>
