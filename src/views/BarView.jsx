@@ -10,6 +10,7 @@ export default class BarView extends Component {
     return (
       <p>
         I'm {this.state.name}.
+        用于做猫妖电影管理员后台管理
       </p>
     )
   }
