@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import Hello from './components/Hello'
 import { browserHistory as history, Router } from 'react-router'
 import routes from 'routes'
-import logo from './assets/logo.svg'
+import logo from './assets/react.png'
 import './app.css'
 
 import Counter from 'components/Counter'
