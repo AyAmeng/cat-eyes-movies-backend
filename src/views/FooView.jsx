@@ -10,7 +10,7 @@ export default class FooView extends Component {
     return (
       <p>
         I'm {this.state.name}.
-        这个是一个React-项目
+        这个是一个React-项目...
       </p>
     )
   }
